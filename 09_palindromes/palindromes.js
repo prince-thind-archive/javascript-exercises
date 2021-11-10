@@ -4,5 +4,5 @@ const palindromes = function (str) {
     return rev==filteredStr;
 };
 
-
+// Do not edit below this line
 module.exports = palindromes;

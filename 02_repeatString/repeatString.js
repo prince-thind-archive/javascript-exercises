@@ -9,4 +9,5 @@ const repeatString = function (str, num) {
   return res;
 };
 
+// Do not edit below this line
 module.exports = repeatString;
