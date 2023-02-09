@@ -1,19 +1,9 @@
-const ftoc = function (F) {
-  let C = (F - 32) * 0.5556;
-  C = C.toFixed(1);
-  C = +C;
-  return C;
-};
+const convertToCelsius = function () {};
 
-const ctof = function (C) {
-  let F = C * 1.8 + 32;
-  F = F.toFixed(1);
-  F = +F;
-  return F;
-};
+const convertToFahrenheit = function () {};
 
 // Do not edit below this line
 module.exports = {
-  ftoc,
-  ctof,
+  convertToCelsius,
+  convertToFahrenheit,
 };
